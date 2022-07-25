@@ -40,7 +40,7 @@ export default function UserList() {
                 <Td>
                   <Box>
                     <Text fontWeight='bold'>Eduardo Almeida</Text>
-                    <Text font-Size='sm' color='gray.300'>eduardo.almeida.job@gmail.com</Text>
+                    <Text fontSize='sm' color='gray.300'>eduardo.almeida.job@gmail.com</Text>
                   </Box>
                 </Td>
                 <Td>04 de Abril, 2022</Td>
