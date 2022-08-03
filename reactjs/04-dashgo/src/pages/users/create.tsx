@@ -75,7 +75,7 @@ export default function UserCreate() {
               <Link href="users" passHref>
                 <Button as="a" colorScheme='whiteAlpha'>Cancelar</Button>
               </Link>
-              <Button colorScheme='pink'>Salvar</Button>
+              <Button type="submit" colorScheme='pink' isLoading={formState.isSubmitting}>Salvar</Button>
             </HStack>
           </Flex>
 
