@@ -1,4 +1,4 @@
-import React, { FormEvent, useCallback, useState } from "react"
+import React, { FormEvent, useCallback, useState } from "react";
 import { SearchResults } from "../components/SearchResults";
 
 type Results = {
@@ -52,11 +52,14 @@ export default function Home() {
 
         <button type="submit"> Buscar </button>
       </form>
-      <SearchResults
-        results={results.data}
-        totalPrice={results.totalPrice}
-        onAddToWishlist={onAddToWishlist}
-      />
+      {results && (
+
+        <SearchResults
+          results={results.data}
+          totalPrice={results.totalPrice}
+          onAddToWishlist={onAddToWishlist}
+        />
+      )}
     </div>
   )
 }
